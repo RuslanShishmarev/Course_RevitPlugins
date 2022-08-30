@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Assembly>Lessons.dll</Assembly>
+    <ClientId>546CA632-54D2-45D3-B9B0-3053A01E3455</ClientId>
+    <FullClassName>Lessons.Lesson_App</FullClassName>
+    <Name>Lessons Revit plugins</Name>
+    <VendorId>RuslanSH</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,25 @@
+﻿<Page x:Class="CoursePlugins.Views.ProjectPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CoursePlugins.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ProjectPage">
+
+    <Grid>
+        <ListView ItemsSource="{Binding Elements}" SelectedItem="{Binding SelectedElement}">
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Path=Id}" Width="100"/>
+                        <GridViewColumn Header="Имя" DisplayMemberBinding="{Binding Path=Name}" Width="100"/>
+                        <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding Path=Description}" Width="100"/>
+                    </GridView.Columns>
+                </GridView>            
+                
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Page>
