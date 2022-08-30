@@ -1,6 +1,6 @@
 ﻿using CoursePlugins.Models;
 using CoursePlugins.Views;
-using CoursePluginsAPI.cs;
+using CoursePluginsAPI;
 using Prism.Mvvm;
 using Prism.Commands;
 using System.Collections.Generic;

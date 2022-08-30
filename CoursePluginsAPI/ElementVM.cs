@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CoursePluginsAPI.cs
+namespace CoursePluginsAPI
 {
     public class ElementVM
     {

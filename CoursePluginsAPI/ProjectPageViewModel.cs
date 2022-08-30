@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Linq;
 
-namespace CoursePluginsAPI.cs
+namespace CoursePluginsAPI
 {
     public class ProjectPageViewModel : BindableBase
     {

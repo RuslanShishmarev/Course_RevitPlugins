@@ -1,4 +1,4 @@
-﻿using CoursePluginsAPI.cs;
+﻿using CoursePluginsAPI;
 using System.Windows;
 
 namespace TestCommand

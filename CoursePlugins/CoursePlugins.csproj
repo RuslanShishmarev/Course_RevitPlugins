@@ -10,4 +10,8 @@
     <PackageReference Include="Prism.Wpf" Version="8.1.97" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoursePluginsAPI\CoursePluginsAPI.csproj" />
+  </ItemGroup>
+
 </Project>

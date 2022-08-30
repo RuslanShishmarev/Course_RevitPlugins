@@ -1,4 +1,4 @@
-﻿namespace CoursePluginsAPI.cs
+﻿namespace CoursePluginsAPI
 {
     public interface IMyCommand
     {
